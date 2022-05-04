@@ -103,27 +103,27 @@ a:hover {
   color: blue;
 }
 
-.parallel {
+.interests {
   display: flex;
   justify-content: center;
 }
 
-.parallel div {
+.interests div {
   display: inline-block;
   align-items: center;
 }
 
-.upper-right {
+.left-block {
   text-align: right;
   width: 100px;
   height: 175px;
 }
 
-.list-center {
+.right-block {
   height: 175px;
 }
 
-.list-center ul {
+.right-block ul {
   list-style: none;
   padding-left: 5px;
   text-align: left;
