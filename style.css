@@ -31,7 +31,6 @@ body {
 h1 {
   font-family: "Roboto";
   font-size: 28px;
-  /* color: #272727; */
   color: #67A28B;
 }
 
@@ -90,4 +89,42 @@ a:hover {
 
 .btn:hover {
   color: blue;
+}
+
+.btn-phone-size {
+  background-color: #67A28B;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn-phone-size:hover {
+  color: blue;
+}
+
+.parallel {
+  display: flex;
+  justify-content: center;
+}
+
+.parallel div {
+  display: inline-block;
+  align-items: center;
+}
+
+.upper-right {
+  text-align: right;
+  width: 100px;
+  height: 175px;
+}
+
+.list-center {
+  height: 175px;
+}
+
+.list-center ul {
+  list-style: none;
+  padding-left: 5px;
+  text-align: left;
 }
